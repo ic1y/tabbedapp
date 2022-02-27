@@ -69,9 +69,16 @@ input[type="radio"]:checked + label {
 	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
-	padding: 24px;
+	padding: 0 10vw;
 	overflow: auto;
 }
 .hd {
 	display: none !important;
+}
+a{
+	color: #add8e6;
+	text-decoration: none;
+}
+a:hover,a:focus{
+	outline: 1px solid #add8e6;
 }
